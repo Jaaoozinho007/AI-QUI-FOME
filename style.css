@@ -1,0 +1,61 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+}
+
+.txt{
+    background-color: rgb(5, 252, 58);
+    color: azure;
+}
+
+
+nav {
+    background-color: #f10f0f;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color:aqua;
+    background-color: #f10f0f;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+    color:aqua;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color:aqua;
+   
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color:aqua;
+    
+}
+
+.cardapio {
+    border: 0px blue;
+    background-color: rgb(238, 238, 5);
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 100;
+
+}
+.cardapio:hover {
+    background-color: #f10f0f;
+    border-radius: 5px; 
+}
+
