@@ -1,0 +1,36 @@
+body {
+    background-color:  #4d6db7;
+}
+
+
+h1{
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 8cap;
+ text-align: center;
+
+}
+
+div{
+ 
+    text-align: center;
+    align-items: center;
+
+}
+
+button{
+    cursor: pointer;
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    border-radius: 20px;
+    transition: all .3s;
+
+}
+
+button:hover{
+    background-color:  #183474;
+    color: white;
+    transform: scale(1.2);
+}

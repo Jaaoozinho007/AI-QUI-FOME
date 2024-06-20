@@ -3,51 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tela de Usuário</title>
+  <link rel="stylesheet" href="/CSS/usuario.css">
+  <title>Dados do Usuário</title>
   <style>
-    /* Estilos gerais */
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f0f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 320px;
-      text-align: center;
-    }
-    .user-info {
-      margin-bottom: 20px;
-    }
-    .user-info h2 {
-      color: #333;
-      margin-top: 0;
-    }
-    .user-info p {
-      margin: 8px 0;
-      color: #666;
-    }
-    .user-info p strong {
-      color: #333;
-    }
+   
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="user-info">
+    <div class="header">
       <h2>Dados do Usuário</h2>
+    </div>
+    <div class="user-info">
       <p><strong>Nome:</strong> João da Silva</p>
       <p><strong>ID:</strong> 123456</p>
-      <p><strong>Cursos Vistos:</strong> 10</p>
-      <p><strong>Cursos Baixados:</strong> 5</p>
-      <p><strong>Tempo da Conta:</strong> 6 meses</p>
+      <p><strong>Cursos Incluídos:</strong> 10</p>
+      <p><strong>Cursos Favoritos:</strong> 5</p>
+      <p><strong>Tempo de Membro:</strong> 6 meses</p>
+    </div>
+    <div class="footer">
+      <button class="btn-voltar" onclick="window.history.back();">Voltar</button>
+      <p>© 2024 Dados do Usuário. Todos os direitos reservados.</p>
     </div>
   </div>
 </body>

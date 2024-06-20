@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Cursos</title>
+    <link rel="stylesheet" href="/CSS/cursos.css">
+   
+
+</head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg" alt="YouTube Logo" class="logo">
+                <div class="search-bar">
+                    <input type="text" id="search" name="search" placeholder="Pesquisar curso...">
+                    <button onclick="searchCourses()">Pesquisar</button>
+                </div>
+            </header>
+    
+            <!-- Exemplo de curso encontrado -->
+            <div class="course" id="course1">
+                <div class="course-content">
+                    <h2>Curso de Programação em JavaScript</h2>
+                    <p><strong>Tutor:</strong> João Silva</p>
+                    <p><strong>Linguagem:</strong> JavaScript</p>
+    
+                    <!-- Playlist do YouTube -->
+                    <div class="playlist">
+                        <h3>Playlist:</h3>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+    
+                    <!-- Botões de ação -->
+                    <div class="action-buttons">
+                        <button>Compartilhar</button>
+                        <button>Curtir</button>
+                        <button>Download</button>
+                        <!-- Adicione outros botões conforme necessário -->
+                    </div>
+    
+                    <!-- Área de comentários -->
+                    <div class="comments">
+                        <h3>Comentários:</h3>
+                        <div class="comment">
+                            <p><strong>Usuário 1:</strong> Ótimo curso para iniciantes!</p>
+                        </div>
+                        <div class="comment">
+                            <p><strong>Usuário 2:</strong> Gostei muito das explicações, parabéns ao tutor!</p>
+                        </div>
+                        <form>
+                            <textarea id="comment" name="comment" placeholder="Deixe seu comentário..."></textarea><br>
+                            <button type="submit">Enviar comentário</button>
+                            <button type = "submit" class="btn-voltar"><a href = "tela-cursos.html">Voltar</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

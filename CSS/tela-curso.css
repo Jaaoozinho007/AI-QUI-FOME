@@ -1,0 +1,78 @@
+body {
+    background-color:  #4d6db7;
+}
+
+h1{
+    font-size: 15cap;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.suporte {
+    background-color:#007bff; /* Azul escuro */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ float: right;
+}
+
+.suporte:hover {
+    background-color: #0056b3;
+}
+div{
+    text-align: center;
+   
+    
+}
+
+
+.botoes{
+ margin: 30px;
+ width: 200px;
+ height: 200px;   
+ cursor: pointer;
+ border-radius: 20px; 
+ transition: all .3s;
+ 
+
+}
+
+.botoes:hover{
+    background-color: #0056b3;
+    transform: scale(1.2);
+    color: white;
+}
+
+
+.btn-voltar {
+    background-color:#007bff; /* Azul escuro */
+    color: black; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float:right;
+    
+  }
+
+  .btn-voltar:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+  }
+
+  a {
+    text-decoration: none;
+    color:black;
+  }

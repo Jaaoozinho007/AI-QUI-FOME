@@ -3,39 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "/CSS/style.css">
     <title>Ai qui fome</title>
 
 </head>
 <body>
-    
-    <nav>
-        <br></br>
-         
-        <ul>
-          
-            <br></br>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Suporte</a></li>
-            <br></br>
-            <br></br>
-             </ul>
-            </nav>
-            <div class = "txt">
-                <br></br>
-            <h1 align = "center"> PROJETO VIDEOS CURSOS</h1>
-            <br></br>
-            </div>
-            <div class = "botoes"> 
-                <center>
-                    <br></br>
-                    <button> <a href="usuario.html">Cursos</a> </button>
-                    <br></br>
-                    
-                    <button> Recuperação de senha</button>
-                </center>
+    <div class="login-container">
+        <center>
 
-            </div>
+            <form class="login-form">
+              <h2>Videos Cursos: Login</h2>
+              <div class="input-container">
+                <input id = "teste" type="text" placeholder="Usuário" required>
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="input-container">
+                <input type="password" placeholder="Senha" required>
+                <i class="fas fa-lock"></i>
+              </div>
+              <button type="submit" href = "telaprincipal.html"><a class = "entrar"href = "telaprincipal.html">Entrar</a> </button>
+              <div class="form-links">
+                <a href="cadastro.html">Criar conta</a>
+                <span class="separator">|</span>
+                <a href="recuperacao.html">Recuperar conta</a>
+
+              </div>
+            </form>
+        </center>
+      </div>
+      
+    
 </body>
 </html>
