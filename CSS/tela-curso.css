@@ -38,6 +38,7 @@ div{
 
 
 .botoes{
+    
  margin: 30px;
  width: 200px;
  height: 200px;   
@@ -46,6 +47,12 @@ div{
  transition: all .3s;
  
 
+}
+
+#js {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PwRQttmK18ZBYWADrccj8tjjsnIWtDFvqQ&s);
+    background-position: center;
+   
 }
 
 .botoes:hover{
