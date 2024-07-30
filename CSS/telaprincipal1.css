@@ -1,7 +1,23 @@
 body {
-    background-color:  #4d6db7;
+    background-color:  #83C8EB;
 }
 
+.container {
+    background-color:#109EE6 ;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 15px #5C61E6;
+    width: 1200px;
+    max-width: 150%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.container a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
 
 h1{
  color: black;
@@ -20,6 +36,7 @@ div{
 }
 
 button{
+    background-color:  #5539a7 ;
     cursor: pointer;
     margin: 100px;
     width: 200px;
@@ -31,7 +48,7 @@ button{
 }
 
 button:hover{
-    background-color:  #183474;
+    background-color:   #5C61E6;
     color: white;
     transform: scale(1.2);
 }

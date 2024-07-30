@@ -1,5 +1,5 @@
 body {
-    background-color:  #4d6db7;
+    background-color:  #83C8EB;
 }
 
 
@@ -10,14 +10,22 @@ h1{
 }
 
 
-
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 12px 12px 15px #5C61E6;
+    background-color:#109EE6 ;
+    border-radius: 5px;
+    margin : 0 auto;
+}
 
 a {
     text-decoration: none;
     color: black;
 }
 .suporte {
-    background-color:#007bff; /* Azul escuro */
+    background-color:#5539a7; /* Azul escuro */
     color: #fff; /* Texto branco */
     border: none;
     padding: 10px 20px;
@@ -30,7 +38,7 @@ a {
 }
 
 .suporte:hover {
-    background-color: #0056b3;
+    background-color: #5C61E6;
 }
 div{
     text-align: center;
@@ -40,7 +48,7 @@ div{
 
 
 .botoes{
-    
+    background-color:#5539a7;
  margin: 30px;
  width: 200px;
  height: 200px;   
@@ -65,7 +73,7 @@ div{
 
 
 .btn-voltar {
-    background-color:#007bff; /* Azul escuro */
+    background-color:#5539a7; /* Azul escuro */
     color: black; /* Texto branco */
     border: none;
     padding: 10px 20px;
@@ -79,7 +87,7 @@ div{
   }
 
   .btn-voltar:hover {
-    background-color: #0056b3; /* Azul mais escuro no hover */
+    background-color: #5C61E6; /* Azul mais escuro no hover */
   }
 
   a {

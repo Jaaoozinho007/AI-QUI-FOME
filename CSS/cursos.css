@@ -7,7 +7,7 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #4d6db7;
+    background-color: #83C8EB;
     color: #333;
     line-height: 1.6;
 }
@@ -17,10 +17,11 @@ body {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
+    box-shadow: 12px 12px 15px #5C61E6;
 }
 
 header {
-    background-color: #fff;
+    background-color: #83C8EB;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -37,7 +38,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #109EE6;
     border-radius: 8px;
     padding: 5px;
     margin-left: 20px;
@@ -55,7 +56,7 @@ header {
 .search-bar button {
     padding: 8px 16px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #109EE6;
     color: white;
     border: none;
     cursor: pointer;
@@ -118,7 +119,7 @@ header {
 .action-buttons button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #5539a7;
     color: white;
     border: none;
     cursor: pointer;
@@ -127,7 +128,7 @@ header {
 }
 
 .action-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #5C61E6;
 }
 
 /* Estilos para os comentários */
@@ -172,7 +173,7 @@ form textarea {
 form button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #5539a7;
     color: white;
     border: none;
     cursor: pointer;
@@ -181,12 +182,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #5C61E6;
 }
 
 .btn-voltar {
-    background-color:#007bff; /* Azul escuro */
-    color: #fff; /* Texto branco */
+    background-color:#5539a7; /* Azul escuro */
+    color: #ffff; /* Texto branco */
     border: none;
     padding: 10px 20px;
     text-decoration: none;
@@ -197,10 +198,10 @@ form button:hover {
     float: right;
   }
   .btn-voltar:hover {
-    background-color: #0056b3; /* Azul mais escuro no hover */
+    background-color: #5C61E6; /* Azul mais escuro no hover */
   }
 
   a {
     text-decoration: none;
-    color:black;
+    color:white;
   }
