@@ -14,6 +14,7 @@ body {
 
 
 .container {
+    background-color: #109EE6;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -70,7 +71,7 @@ header {
 
 /* Estilos para os cards de curso */
 .course {
-    background-color: #fff;
+    background-color: #109EE6;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
